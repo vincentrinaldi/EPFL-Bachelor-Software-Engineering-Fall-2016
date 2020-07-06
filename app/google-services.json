@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "437233590178",
+    "firebase_url": "https://tutosaurus-16fce.firebaseio.com",
+    "project_id": "tutosaurus-16fce",
+    "storage_bucket": "tutosaurus-16fce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437233590178:android:06c510bef7c367d1",
+        "android_client_info": {
+          "package_name": "ch.epfl.sweng.tutosaurus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437233590178-h3ccrhtv8rcpbpbe8ct8olnb0b3rqgpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeZIujBtjnkYQcgixetSNyVFhtCZ9PB-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

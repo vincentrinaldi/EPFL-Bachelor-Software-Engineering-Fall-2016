@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name_title">TUTOSAURUS</string>
+    <string name="app_name">TutoSaurus</string>
+    <string name="welcoming_message">The app for every tutor and tutoree.</string>
+    <string name="welcome_message_description">Dino welcome</string>
+    <string name="email_ask">Enter Email</string>
+    <string name="password_ask">Enter Password</string>
+    <string name="connection_button">Log in</string>
+    <string name="register_button">Sign up</string>
+    <string name="password_reset_title">Forgot Password?</string>
+    <string name="password_forgot_btn">Forgot your Password?</string>
+    <string name="reset_password_btn">RESET PASSWORD</string>
+    <string name="login">Login</string>
+    <string name="login_failed">Login failed</string>
+    <string name="request_email_and_password">Please type in your email and password</string>
+    <string name="request_email_password_reset">No worries! We just need the email you registered with and we\'ll send you
+    the instructions.</string>
+    <string name="request_registered_email">"Enter your registered email id"</string>
+    <string name="sending_request">Sending request…</string>
+    <string name="reset_request_fail">Failed to send reset!</string>
+    <string name="reset_password_sent">"Instructions sent to your email!"</string>
+    <string name="authorize_app_required">Could not complete sign up</string>
+
+    <string name="status_not_connected">You are not connected to Internet!</string>
+    <string name="status_connected">No account yet? Sign up with Tequila!</string>
+
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+
+    <string name="gaspar">Gaspar</string>
+    <string name="password">Password</string>
+    <string name="activity_register_name">Register</string>
+    <string name="activity_confirmation_name">Confirmation</string>
+    <string name="instructions_register">
+        Please fill the boxes below with your Gaspar account
+        and register with Tequila.</string>
+    <string name="send_info_to_tequila">Confirm registration with Tequila</string>
+    <string name="gathering_info">Gathering Info …</string>
+
+    <string name="thanks_message1">Thank you for registering !</string>
+    <string name="thanks_message2">Please enter a password for your new account below.</string>
+
+    <string name="recap_message">Provided information is :</string>
+    <string name="choose_password">Choose Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_register">Confirm Registration</string>
+    <string name="mismatch_password">Passwords must match</string>
+    <string name="missing_password">Password missing</string>
+    <string name="authentification_failed">Auth failed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logOut">Log out</string>
+
+    <string name="firstLayout_button">Profile</string>
+    <string name="secondLayout_button">Find Tutors</string>
+    <string name="thirdLayout_button">Be A Tutor</string>
+    <string name="fourthLayout_button">Settings</string>
+    <string name="fifthLayout_button">Help</string>
+    <string name="sixthLayout_button">About</string>
+    <string name="seventhLayout_button">Meetings</string>
+
+    <string name="title">TutoSaurus ©</string>
+    <string name="version">Version : 1.0.0</string>
+    <string name="description">Copyright EPFL Inc. 2016. All rights reserved.</string>
+    <string name="developers">This app is developed by team No Clue from EPFL.</string>
+    <string name="goal">
+        This Android application is intended for students and tutors from Switzerland
+        and provides study material needed to help every student realize their potential.</string>
+
+    <string name="phone_number_help">+41 79 138 0861</string>
+    <string name="clock_message_phone">Monday to Friday : 06:00 to 18:00</string>
+    <string name="help_message_phone">Need some help urgently ? You can call our support line.
+        You will be put in interaction with one of our support agents.</string>
+    <string name="email_address_help">vincent.rinaldi@epfl.ch</string>
+    <string name="clock_message_email">Service available 24/7</string>
+    <string name="help_message_email">You can also send us an email.
+        A member of the assistance service will answer to your request soon.</string>
+
+    <string name="mathematics_enabled">Mathematics</string>
+    <string name="physics_enabled">Physics</string>
+    <string name="chemistry_enabled">Chemistry</string>
+    <string name="computer_science_enabled">Computer Science</string>
+
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="epfl_web_site">Go to EPFL website</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="explanations_change_password">Please choose a new password for your account.</string>
+    <string name="send_new_password">Send</string>
+    
+    <string name="switch_adapter">switch adapter</string>
+
+    <string name="nameLocation">Location</string>
+    <string name="title_activity_reset_password">Reset Password</string>
+    <string name="course_picture">Course Picture</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="messages">Messages</string>
+    <string name="dino_logo">Dino logo</string>
+    <string name="by_subject">By subject</string>
+    <string name="phone_logo">Phone logo</string>
+    <string name="list_view_course_picture">Course Picture</string>
+    <string name="albert_einstein">Albert Einstein</string>
+    <string name="dino_register">Dino register</string>
+    <string name="enter_message_prompt">Enter message…</string>
+    <string name="by_name">By name</string>
+    <string name="meeting_confirmation_location">Location:</string>
+    <string name="alberto_chiappa">Alberto Chiappa</string>
+    <string name="create_meeting_date">Date</string>
+    <string name="send_message_btn">Send message</string>
+    <string name="epfl_logo">EPFL logo</string>
+    <string name="public_profile_professor">Professor</string>
+    <string name="meeting_confirmation_date">Date:</string>
+    <string name="listview_meeting_details">Details</string>
+    <string name="find_tutors_tutor_s_name">Tutor\'s name</string>
+    <string name="create_meeting_location">Location</string>
+    <string name="find_tutor_search">search</string>
+    <string name="find_your_tutor">How do you want to find your tutor?</string>
+    <string name="meeting_confirmation_confirm">Confirm</string>
+    <string name="public_profile_student">Student</string>
+    <string name="profile_profile_picture">Profile Picture</string>
+    <string name="find_tutors_show_full_list">Show full list</string>
+    <string name="help_email_logo">Email logo</string>
+    <string name="create_meeting_description">Description</string>
+    <string name="create_meeting_request">Request</string>
+    <string name="listview_meeting_map_btn">map</string>
+    <string name="profile_dino_register">Dino register</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_content_alberto_chiappa_email">alberto.chiappa@epfl.ch</string>
+    <string name="profile_meetings_to_be_confirmed">Meetings to be confirmed</string>
+    <string name="level_10_tirannosaurus_rex">level 10: Tirannosaurus Rex</string>
+    <string name="profile_expert_in">Expert in:</string>
+    <string name="profile_request_meeting">Request meeting</string>
+    <string name="confirmation_first_name">"First name : %1$s"</string>
+    <string name="confirmation_last_name">"Last name : %1$s"</string>
+    <string name="confirmation_email">"Email address : %1$s"</string>
+    <string name="confirmation_sciper">"Sciper : %1$s"</string>
+    <string name="add_to_calendar">Calendar</string>
+    <string name="rate">Rate</string>
+</resources>

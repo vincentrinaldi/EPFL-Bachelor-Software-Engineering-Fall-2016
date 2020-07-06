@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile_layout"
+            android:icon="@drawable/philosoraptor"
+            android:title="@string/firstLayout_button" />
+        <item
+            android:id="@+id/nav_findTutors_layout"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="@string/secondLayout_button" />
+        <item
+            android:id="@+id/nav_beATutor_layout"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/thirdLayout_button" />
+        <item
+            android:id="@+id/nav_messaging_layout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/messages" />
+        <item
+            android:id="@+id/nav_meetings_layout"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/seventhLayout_button" />
+        <item
+            android:id="@+id/nav_settings_layout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/fourthLayout_button" />
+        <item
+            android:id="@+id/nav_help_layout"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="@string/fifthLayout_button" />
+        <item
+            android:id="@+id/nav_about_layout"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/sixthLayout_button" />
+    </group>
+
+</menu>

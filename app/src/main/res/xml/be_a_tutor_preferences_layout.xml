@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Languages Spoken"
+        android:layout="@layout/preference_title_category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="English"
+            android:icon="@drawable/united_kingdom"
+            android:layout="@layout/preference_checkbox_and_image"
+            android:id="@+id/checkbox_english"
+            android:key="checkbox_preference_english" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="French"
+            android:icon="@drawable/france"
+            android:layout="@layout/preference_checkbox_and_image"
+            android:id="@+id/checkbox_french"
+            android:key="checkbox_preference_french" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="German"
+            android:icon="@drawable/germany"
+            android:layout="@layout/preference_checkbox_and_image"
+            android:id="@+id/checkbox_german"
+            android:key="checkbox_preference_german" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Italian"
+            android:icon="@drawable/italy"
+            android:layout="@layout/preference_checkbox_and_image"
+            android:id="@+id/checkbox_italian"
+            android:key="checkbox_preference_italian" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Chinese"
+            android:icon="@drawable/china"
+            android:layout="@layout/preference_checkbox_and_image"
+            android:id="@+id/checkbox_chinese"
+            android:key="checkbox_preference_chinese" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:title="Russian"
+            android:icon="@drawable/russia"
+            android:layout="@layout/preference_checkbox_and_image"
+            android:id="@+id/checkbox_russian"
+            android:key="checkbox_preference_russian" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Subjects Taught"
+        android:layout="@layout/preference_title_category">
+
+        <CheckBoxPreference
+            android:key="checkbox_preference_mathematics"
+            android:id="@+id/checkbox_mathematics"
+            android:title="@string/mathematics_enabled"
+            android:icon="@drawable/calculator"
+            android:defaultValue="false"
+            android:layout="@layout/preference_checkbox_and_image" />
+        <EditTextPreference
+            android:defaultValue="Enter your description."
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:enabled="true"
+            android:selectable="true"
+            android:id="@+id/edit_text_mathematics"
+            android:key="edit_text_preference_mathematics" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="checkbox_preference_physics"
+            android:id="@+id/checkbox_physics"
+            android:title="@string/physics_enabled"
+            android:icon="@drawable/flask"
+            android:defaultValue="false"
+            android:layout="@layout/preference_checkbox_and_image" />
+        <EditTextPreference
+            android:defaultValue="Enter your description."
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:enabled="true"
+            android:selectable="true"
+            android:id="@+id/edit_text_physics"
+            android:key="edit_text_preference_physics" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="checkbox_preference_chemistry"
+            android:id="@+id/checkbox_chemistry"
+            android:title="@string/chemistry_enabled"
+            android:icon="@drawable/molecule"
+            android:defaultValue="false"
+            android:layout="@layout/preference_checkbox_and_image" />
+        <EditTextPreference
+            android:defaultValue="Enter your description."
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:enabled="true"
+            android:selectable="true"
+            android:id="@+id/edit_text_chemistry"
+            android:key="edit_text_preference_chemistry" />
+        <PreferenceScreen
+            android:layout="@layout/preference_divider"
+            android:selectable="false">
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="checkbox_preference_computer_science"
+            android:id="@+id/checkbox_computer_science"
+            android:title="@string/computer_science_enabled"
+            android:icon="@drawable/computer"
+            android:defaultValue="false"
+            android:layout="@layout/preference_checkbox_and_image" />
+        <EditTextPreference
+            android:defaultValue="Enter your description."
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:enabled="true"
+            android:selectable="true"
+            android:id="@+id/edit_text_computer_science"
+            android:key="edit_text_preference_computer_science" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

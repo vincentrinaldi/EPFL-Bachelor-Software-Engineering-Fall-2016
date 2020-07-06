@@ -1,0 +1,81 @@
+Structure ot the noSQL JSON database
+
+{
+	"user" : {
+		"userId" : {
+		    "sciper"   : "sciper number of user"
+			"userName" : "name of user",
+			"fullName" : "surname of user",
+			"email" : "email of user",
+			"pic" : "picture of user"
+			"meetings" : {
+				"meetingId" : "true"
+			}
+			"teachCourse" : {
+				"courseId" : {
+					"totalHour" : "number of hour",
+					"rate" : "globalRating of the user"
+				}
+			}
+			"learnCourse" : {
+				"courseId" : "true"
+			}
+		}
+	}
+
+	"course" : {
+		"courseId" : {
+			"courseName" : {
+				"courseNameFr" : "name of course in Fr"
+			}
+			"teaching" : {
+				"userId" : "true"
+			}
+			"studying" : {
+				"userId" : "true"
+			}
+			"meeting" : {
+				"meetingId" : "true"
+			}
+		}
+	} 
+
+	"meeting" : {
+		"meetingId" : {
+			"date" : "time of the meeting",
+			"nameLocation" : "nameLocation the meeting"
+			"courseId" : "id of course"
+			"participants" : {
+				"userId" : "id of participant"
+			}	
+		}	
+	}
+
+	"chats" : {
+        "userUid" : {
+           "uid" : {
+                "uid" : uid,
+                "fullName" : fullName
+           }
+        }
+	}
+
+	"messages" : {
+	    "userUid" : {
+	        "otherUserUid" : {
+                "m1" : {
+                    "from" : uid,
+                    "message" : "Hello world!",
+                    "timestamp" : 9080312312
+                }
+                "m2" : {
+                    "from" : uid,
+                    "message" : "How are you ?",
+                    "timestamp" : 9081128122
+                }
+                ...
+            }
+	    }
+	}
+}
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ch.epfl.sweng.tutosaurus.activity.HomeScreenActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/sym_action_call"
+        android:layout_marginTop="18dp"
+        android:id="@+id/phoneLogo"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="sendMessageForCall"
+        android:contentDescription="@string/phone_logo"/>
+
+    <TextView
+        android:text="@string/phone_number_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/phoneNumberHelp"
+        android:textStyle="normal|bold"
+        android:textSize="21sp" />
+
+    <TextView
+        android:text="@string/clock_message_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clockMessagePhone"
+        android:textSize="16sp"
+        android:textStyle="normal|bold|italic"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/phoneNumberHelp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/help_message_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/helpMessagePhone"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_below="@+id/clockMessagePhone"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/sym_action_email"
+        android:layout_marginTop="57dp"
+        android:id="@+id/messageLogo"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:layout_below="@+id/helpMessagePhone"
+        android:layout_alignStart="@+id/phoneLogo"
+        android:clickable="true"
+        android:onClick="sendMessageForEmail"
+        android:contentDescription="@string/help_email_logo"/>
+
+    <TextView
+        android:text="@string/email_address_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/emailAddressHelp"
+        android:textSize="21sp"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/messageLogo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/clock_message_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:id="@+id/clockMessageEmail"
+        android:textStyle="normal|bold|italic"
+        android:textSize="16sp"
+        android:layout_below="@+id/emailAddressHelp"
+        android:layout_alignStart="@+id/phoneNumberHelp" />
+
+    <TextView
+        android:text="@string/help_message_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/helpMessageEmail"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/clockMessageEmail"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

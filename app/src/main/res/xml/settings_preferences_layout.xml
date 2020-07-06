@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_preference_notification"
+        android:id="@+id/checkbox_notifications"
+        android:title="@string/enable_notifications"
+        android:layout="@layout/preference_checkbox" />
+
+    <PreferenceScreen
+        android:layout="@layout/preference_divider"
+        android:selectable="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:key="intent_preference_password"
+        android:title="@string/change_password"
+        android:layout="@layout/preference_intent">
+        <intent android:action="example.action.ChangePasswordActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:layout="@layout/preference_divider"
+        android:selectable="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="@string/epfl_web_site"
+        android:key="intent_preference_epfl"
+        android:layout="@layout/preference_intent">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://www.epfl.ch/" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:layout="@layout/preference_divider"
+        android:selectable="false">
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:layout="@layout/preference_blank"
+        android:selectable="false">
+    </PreferenceScreen>
+
+</PreferenceScreen>
